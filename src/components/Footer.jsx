@@ -11,7 +11,7 @@ export default function Footer() {
       <Section>
         <div className="brand container">
           <img src={logo} alt="" />
-          <p>
+        <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
             repudiandae.
           </p>
@@ -22,12 +22,16 @@ export default function Footer() {
             <li>
               <FaFacebookF />
             </li>
+            {/*
             <li>
               <GrLinkedinOption />
             </li>
+            */}
+            {/*
             <li>
               <BsTwitter />
             </li>
+            */}
           </ul>
         </div>
         <div className="about container">
@@ -61,7 +65,7 @@ export default function Footer() {
 
 const Section = styled.footer`
   margin: 0;
-  background: linear-gradient(to right, #fc4958, #e85d04);
+  background: linear-gradient(to right, #358D51, #97A54E);
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -75,7 +79,7 @@ const Section = styled.footer`
   ul {
     display: flex;
     list-style-type: none;
-    gap: 4vw;
+    gap: 2vw;
     margin-top: 2vw;
     li {
       padding: 0.8rem;

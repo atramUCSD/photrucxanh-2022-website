@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import background from "../assets/portfolio.jpg";
+import background from "../assets/banner.JPG";
 export default function Portfolio() {
   return (
     <Section id="portfolio">
@@ -8,12 +8,11 @@ export default function Portfolio() {
         <img src={background} alt="" />
       </div>
       <div className="content">
-        <h1>Buy Premium Pan Free Hand Toast!</h1>
+        <h1>View our extensive menu of Asian Fusion Cuisine!</h1>
         <h2>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
-          molestias!
+          Our kitchen crew always prepare every item in our expansive menu with fresh ingredients cooked to perfection!
         </h2>
-        <button>Buy Now</button>
+        <button>View Menu</button>
       </div>
     </Section>
   );
@@ -69,10 +68,10 @@ const Section = styled.section`
       border-radius: 4rem;
       transition: 0.5s ease-in-out;
       cursor: pointer;
-      background: linear-gradient(to right, #fc4958, #e85d04);
+      background: linear-gradient(to right, #358D51, #97A54E);
       text-transform: uppercase;
       &:hover {
-        background: linear-gradient(to right, #e85d04, #fc4958);
+        background: linear-gradient(to right, #97A54E,#358D51);
       }
     }
   }

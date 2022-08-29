@@ -1,14 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import avatar1 from "../assets/avatar1.jpeg";
+import avatar1 from "../assets/Avatar1.png";
+import avatar2 from "../assets/Avatar2.png";
+import avatar3 from "../assets/Avatar3.png";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
       <div className="container">
         <div className="title">
-          <h1>
-            <span>What</span> Customers Says
+          <h1 style={{textAlign:"center"}}>
+            <span>What</span> Customers Say (from <span style={{color:"red"}}>Yelp</span>)
           </h1>
         </div>
         <div className="testimonials">
@@ -17,26 +19,29 @@ export default function Testimonials() {
               <img src={avatar1} alt="" />
             </div>
             <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
+            DELICIOUS. I am so glad I got a recommendation to try this place out from a friend. Not only is the
+            service INCREDIBLE, but the food is delicious. The portions are huge (and worth the price), and it is
+            healthy as well as filling.
             </p>
           </div>
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar2} alt="" />
             </div>
             <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
+              
+            The food and service are top tier. The staff are all very friendly and personable, they&#39;ll treat you like
+            family! Will 100% be coming back when I am around the area! 11/10 would recommend to anyone
             </p>
           </div>
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar3} alt="" />
             </div>
             <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
+            Outstanding food and even more outstanding staff. Kindest family seems to operate the restaurant with
+            a humbling mentality that all customers are dignified guests and old friends at the same time. They
+            check in with every table and eagerly make sure you feel at home and are getting everything you need...
             </p>
           </div>
         </div>
@@ -47,7 +52,7 @@ export default function Testimonials() {
 
 const Section = styled.section`
   margin: 5vw;
-  background: linear-gradient(to right, #fc4958, #e85d04, #fc4958);
+  background: linear-gradient(to right, #358D51, #97A54E, #358D51);
   padding: 0.2rem;
   border-radius: 1.5rem;
   position: relative;
@@ -55,7 +60,7 @@ const Section = styled.section`
     margin: 0.5rem;
     padding-top: 1vw;
     padding-bottom: 4vw;
-    background-color: white;
+    background-color: #fdf3e2;
     border-radius: 1rem;
     ${TitleStyles};
     .title {
@@ -63,13 +68,12 @@ const Section = styled.section`
       top: -1rem;
       left: 25%;
       padding: 0 2rem;
-      background-color: white;
+      background-color: #fdf3e2;
     }
     .testimonials {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 6vw;
       margin-top: 3vw;
       .testimonial {
         padding: 0 4vw;
@@ -86,7 +90,6 @@ const Section = styled.section`
             color: #fc4958;
           }
         }
-        ${imageZoomEffect};
         .image {
           overflow: hidden;
           width: max-content;

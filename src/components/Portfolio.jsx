@@ -69,10 +69,10 @@ const Section = styled.section`
       border-radius: 4rem;
       transition: 0.5s ease-in-out;
       cursor: pointer;
-      background: linear-gradient(to right, #fc4958, #e85d04);
+      background: linear-gradient(to right, #358D51, #97A54E);
       text-transform: uppercase;
       &:hover {
-        background: linear-gradient(to right, #e85d04, #fc4958);
+        background: linear-gradient(to right, #97A54E, #358D51);
       }
     }
   }

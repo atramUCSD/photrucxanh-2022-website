@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+/* import Hero from "./components/Hero"; */
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
 import Portfolio from "./components/Portfolio";
 import Products from "./components/Products";
 import ScrollToTop from "./components/ScrollToTop";
-import Services from "./components/Services";
+/* import Services from "./components/Services"; */
 import Testimonials from "./components/Testimonials";
 import scrollreveal from "scrollreveal";
 import { SliderData } from './components/SliderData';
@@ -42,8 +42,8 @@ export default function App() {
       <ScrollToTop />
       <Navbar />
       <ImageSlider slides={SliderData}/>
-      <Hero />
-      <Services />
+      {/* <Hero /> */}
+      {/* <Services /> */}
       <Portfolio />
       <Testimonials />
       <Products />

@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <Section id="services">
       <div className="title">
-        <h1 className="yellow">What we do?</h1>
+        <h1 className="green">What we do?</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
           incidunt magnam labore ipsam vero minima maxime doloribus dolores ipsa
@@ -82,11 +82,11 @@ const Section = styled.section`
         }
       }
     }
-    .yellow {
+    .green {
       button {
-        background-color: #f9c74f;
+        background-color: #029D71;
         &:hover {
-          background-color: #fc4958;
+          background-color: #029D71;
         }
       }
     }

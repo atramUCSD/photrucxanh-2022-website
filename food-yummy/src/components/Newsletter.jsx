@@ -1,13 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import { TitleStyles } from "./ReusableStyles";
+import phoIcon from "../assets/pho.png";
 export default function Newsletter() {
   return (
     <Section id="newsletter">
       <div className="title">
         <h1>
-          <span>Subscribe</span> Newsletter
+
+        <span> Menu <img style={{width: "5.5vh"}} src={phoIcon} alt="Icon" /> </span>  
+          
         </h1>
+    {/*
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid quas
           perferendis nesciunt illum, voluptas nulla laborum alias similique
@@ -17,6 +21,7 @@ export default function Newsletter() {
       <div className="container">
         <input type="text" placeholder="Search for food ..." />
         <button>Search</button>
+          */}
       </div>
     </Section>
   );
@@ -29,10 +34,10 @@ const Section = styled.section`
   flex-direction: column;
   gap: 4rem;
   align-items: center;
-  ${TitleStyles};
+  ${TitleStyles}
   
   .container {
-    background: linear-gradient(to right, #fc4958, #e85d04, #fc4958);
+    background: linear-gradient(to right, #97A54E, #358D51, #97A54E);
     padding: 0.4vw;
     input {
       border: none;

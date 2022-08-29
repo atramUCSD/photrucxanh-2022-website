@@ -19,11 +19,11 @@ export const TitleStyles = css`
       font-size: 3rem;
       text-transform: uppercase;
       span {
-        color: #fc4958;
+        color: #358D51;
       }
     }
-    .yellow {
-      color: #f9c74f;
+    .green {
+      color: #029D71;
     }
     p {
       padding: 0 10vw;

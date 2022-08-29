@@ -4,31 +4,70 @@ import product1 from "../assets/product1.jpg";
 import product2 from "../assets/product2.jpg";
 import product3 from "../assets/product3.jpg";
 import product4 from "../assets/product4.jpg";
+import product5 from "../assets/product5.JPG";
+import product6 from "../assets/product6.JPG";
+import product7 from "../assets/product7.jpg";
+import product8 from "../assets/product8.jpg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
+
 export default function Products() {
   const data = [
     {
       image: product1,
-      name: "Chicken Burger",
-      price: "$22.4/pcs",
+      name: "A-4 GỎI CUỐN TÔM",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=spring+rolls"
     },
     {
       image: product2,
-      name: "Toasted Bread",
-      price: "$5.5/pcs",
+      name: "HONEY CHICKEN",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=honey+chicken"
     },
     {
       image: product3,
-      name: "Egg Sandwich",
-      price: "$8/pcs",
+      name: "S-46 BÚN BÒ HUẾ TRÚC XANH ",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=bun+bo+hue"
     },
 
     {
       image: product4,
-      name: "Raspberry Cake",
-      price: "$12.5/pcs",
+      name: "C-44 CƠM CHIÊN TRÚC XANH",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=fried+rice"
     },
+
+    {
+      image: product5,
+      name: "P-12 PHỞ ĐẶC BIỆT TRÚC XANH",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=pho"
+    },
+    
+    {
+      image: product6,
+      name: "LO MEIN NOODLES",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=lo+mein"
+    },
+
+    {
+      image: product7,
+      name: "A-14 MỰC RANG MUỐI",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=calamari"
+    },
+
+    {
+      image: product8,
+      name: "D-11 TRÀ THÁI TRÂN CHÂU",
+      price: "TBD",
+      link: "https://www.yelp.com/biz/pho-truc-xanh-escondido?q=thai+tea"
+    },
+
   ];
+  
   return (
     <Section id="products">
       <div className="title">
@@ -43,10 +82,10 @@ export default function Products() {
               <div className="image">
                 <img src={product.image} alt="" />
               </div>
-              <h2>{product.name}</h2>
+              <h2 style={{textAlign:"center"}}>{product.name}</h2>
               <h3>{product.price}</h3>
               <p>He Printing and Typesetting the industry. Lorem Ipsum has</p>
-              <button>Buy Now</button>
+              <button onClick={() => window.open(product.link,"_blank")} type="button"> View Yelp Reviews</button>
             </div>
           );
         })}
@@ -69,7 +108,7 @@ const Section = styled.section`
       justify-content: center;
       align-items: center;
       h3 {
-        color: #fc4958;
+        color: #97A54E;
       }
       p {
         text-align: center;
@@ -96,10 +135,10 @@ const Section = styled.section`
         border-radius: 4rem;
         transition: 0.5s ease-in-out;
         cursor: pointer;
-        background: linear-gradient(to right, #fc4958, #e85d04);
+        background: linear-gradient(to right, #358D51, #97A54E);
         text-transform: uppercase;
         &:hover {
-          background: linear-gradient(to right, #e85d04, #fc4958);
+          background: linear-gradient(to right, #97A54E,#358D51);
         }
       }
     }

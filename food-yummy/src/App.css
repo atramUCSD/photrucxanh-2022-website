@@ -16,17 +16,24 @@
   align-items: center;
   font-size: 4vw;
   font-family: "Nunito", sans-serif;
-  padding-bottom: 15vw;
+  padding-bottom: 3vw;
 }
 
 .header{
   padding-top: 10vw;
-  font-size: 2.5vw;
+  padding-bottom: 3vw;
+  font-size: 3vw;
   text-align: center;
-  font-family: 'Noto Sans Japanese', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: green;
-  -webkit-text-stroke: 1px #000000;
+  font-style: italic; 
 
+}
+
+@media screen and (max-width: 425px){
+  .header{
+    font-size: 1.5rem;
+  }
 }
 
 #slide-element{

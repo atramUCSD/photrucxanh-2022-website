@@ -8,7 +8,7 @@ export default function Testimonials() {
       <div className="container">
         <div className="title">
           <h1>
-            <span>What</span> Customers Says
+            <span> What </span> Customers Says
           </h1>
         </div>
         <div className="testimonials">
@@ -40,14 +40,14 @@ export default function Testimonials() {
             </p>
           </div>
         </div>
-      </div>
+        </div>
     </Section>
   );
 }
 
 const Section = styled.section`
   margin: 5vw;
-  background: linear-gradient(to right, #fc4958, #e85d04, #fc4958);
+  background: linear-gradient(to right, #358D51, #97A54E, #358D51);
   padding: 0.2rem;
   border-radius: 1.5rem;
   position: relative;
@@ -83,7 +83,7 @@ const Section = styled.section`
           line-height: 2rem;
           letter-spacing: 0.1rem;
           span {
-            color: #fc4958;
+            color: #358D51;
           }
         }
         ${imageZoomEffect};

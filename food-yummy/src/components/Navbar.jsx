@@ -34,17 +34,21 @@ export default function Navbar() {
           <li>
             <a href="#services">Our Services</a>
           </li>
+          
+          {/* 
           <li>
             <a href="#portfolio">Portfolio</a>
           </li>
+          */}
+
           <li>
             <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a href="#products">Products</a>
+            <a href="#products">Top Sellers</a>
           </li>
           <li>
-            <a href="#newsletter">Newsletter</a>
+            <a href="#newsletter">Menu</a>
           </li>
         </ul>
       </Nav>
@@ -64,11 +68,13 @@ export default function Navbar() {
               Our Services
             </a>
           </li>
+          {/* 
           <li>
             <a href="#portfolio" onClick={() => setNavbarState(false)}>
               Portfolio
             </a>
           </li>
+        */}
           <li>
             <a href="#testimonials" onClick={() => setNavbarState(false)}>
               Testimonials
@@ -76,12 +82,12 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#products" onClick={() => setNavbarState(false)}>
-              Products
+              Top Sellers
             </a>
           </li>
           <li>
             <a href="#newsletter" onClick={() => setNavbarState(false)}>
-              Newsletter
+              Menu
             </a>
           </li>
         </ul>
@@ -110,18 +116,18 @@ const Nav = styled.nav`
     gap: 2rem;
     li {
       a {
-        color: #fc4958;
+        color: #9DA64D;
         font-weight: 600;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         transition: 0.3s ease-in-out;
         &:hover {
-          color: #f9c74f;
+          color:  #029D71;
         }
       }
       .active {
-        color: #f9c74f;
+        color: #029D71;
       }
     }
   }
@@ -163,17 +169,17 @@ const ResponsiveNav = styled.div`
       margin-left: 2rem;
       a {
         text-decoration: none;
-        color: #f9c74f;
+        color: #358D51;
         font-size: 1.2rem;
         transition: 0.1s ease-in-out;
         &:hover {
-          color: #fc4958;
+          color: #97A54E;
         }
       }
       &:first-of-type {
         a {
-          color: #fc4958;
-          font-weight: 900;
+          color: #029D71;
+          font-weight: 700;
         }
       }
     }

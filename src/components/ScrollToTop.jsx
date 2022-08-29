@@ -24,7 +24,7 @@ const ToTop = styled.div`
   bottom: 1rem;
   right: 2rem;
   border-radius: 2rem;
-  background: linear-gradient(to right, #fc4958, #e85d04);
+  background: linear-gradient(to right, #358D51, #97A54E);
   padding: 1rem 1.15rem;
   svg {
     transition: 0.6s ease-in-out;

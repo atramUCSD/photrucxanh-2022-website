@@ -31,7 +31,7 @@ const Section = styled.section`
   align-items: center;
   ${TitleStyles};
   .container {
-    background: linear-gradient(to right, #fc4958, #e85d04, #fc4958);
+    background: linear-gradient(to right, #358D51, #97A54E, #358D51);
     padding: 0.3vw;
     input {
       border: none;
