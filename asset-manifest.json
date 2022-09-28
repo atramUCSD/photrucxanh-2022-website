@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/photrucxanh-2022-website/static/css/main.fc791b5e.css",
-    "main.js": "/photrucxanh-2022-website/static/js/main.074d36e1.js",
+    "main.js": "/photrucxanh-2022-website/static/js/main.38b832eb.js",
     "static/media/OrangeChicken-Slide-1.svg": "/photrucxanh-2022-website/static/media/OrangeChicken-Slide-1.b5b2c364c0d7b9398876df69cc2461fc.svg",
     "static/media/lomein-Slide-1.svg": "/photrucxanh-2022-website/static/media/lomein-Slide-1.8cb096ca245bee578ca550c5d56edd03.svg",
     "static/media/Pho-Slide-1.svg": "/photrucxanh-2022-website/static/media/Pho-Slide-1.0450a398476060c3885cd7338611968f.svg",
@@ -25,10 +25,10 @@
     "static/media/pho.png": "/photrucxanh-2022-website/static/media/pho.ce492a21457577c1296b.png",
     "index.html": "/photrucxanh-2022-website/index.html",
     "main.fc791b5e.css.map": "/photrucxanh-2022-website/static/css/main.fc791b5e.css.map",
-    "main.074d36e1.js.map": "/photrucxanh-2022-website/static/js/main.074d36e1.js.map"
+    "main.38b832eb.js.map": "/photrucxanh-2022-website/static/js/main.38b832eb.js.map"
   },
   "entrypoints": [
     "static/css/main.fc791b5e.css",
-    "static/js/main.074d36e1.js"
+    "static/js/main.38b832eb.js"
   ]
 }
