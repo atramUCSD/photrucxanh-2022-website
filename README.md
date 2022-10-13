@@ -8,4 +8,6 @@ My redesign: https://atramucsd.github.io/photrucxanh-2022-website/
 
 ## Description
 
-I created a website for my family restaurant using React, multiple CSS libraries, Photoshop, and Figma.
+- I created a website for my family restaurant using React, multiple CSS libraries, Photoshop, and Figma. 
+
+- Aside from the Tra Thai stock photo, all media was photographed and created by me. 
